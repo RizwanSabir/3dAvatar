@@ -4,7 +4,7 @@ import { Canvas, useFrame, useGraph } from '@react-three/fiber';
 import { Color, Matrix4,Euler } from 'three';
 import { useGLTF,OrbitControls } from '@react-three/drei';
 
-import {FilesetResolver,FaceLandmarker} from '@mediapipe/tasks-vision'
+import {FilesetResolver,FaceLandmarker   } from '@mediapipe/tasks-vision'
 
 
 let faceLandmarker;
